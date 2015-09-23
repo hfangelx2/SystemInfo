@@ -172,6 +172,7 @@
 		CA0BA78D1BB2837C00E19437 /* 广告 */ = {
 			isa = PBXGroup;
 			children = (
+				CA0BA7871BB2830A00E19437 /* iAd.framework */,
 				CA0BA78E1BB2837C00E19437 /* IDID.h */,
 				CA0BA78F1BB2837C00E19437 /* IDID.m */,
 				CA0BA7901BB2837C00E19437 /* IDID.storyboard */,
@@ -182,7 +183,6 @@
 		CA1EE4421BB168290009ADF6 = {
 			isa = PBXGroup;
 			children = (
-				CA0BA7871BB2830A00E19437 /* iAd.framework */,
 				CA1EE44D1BB168290009ADF6 /* 系统方法 */,
 				CA1EE44C1BB168290009ADF6 /* Products */,
 			);
