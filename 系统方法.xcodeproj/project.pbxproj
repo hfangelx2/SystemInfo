@@ -7,21 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA0BA74F1BB25A1B00E19437 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0BA74C1BB25A1B00E19437 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CA0BA7571BB2644100E19437 /* KCAddPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0BA7531BB2644100E19437 /* KCAddPersonViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CA0BA7581BB2644100E19437 /* KCContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0BA7551BB2644100E19437 /* KCContactViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CA0BA75B1BB2646800E19437 /* AddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0BA75A1BB2646800E19437 /* AddressViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CA0BA75D1BB2700C00E19437 /* Address.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0BA75C1BB2700C00E19437 /* Address.storyboard */; settings = {ASSET_TAGS = (); }; };
+		CA0BA7741BB27B4600E19437 /* CoreBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0BA76C1BB27B4600E19437 /* CoreBluetooth.m */; settings = {ASSET_TAGS = (); }; };
+		CA0BA7751BB27B4600E19437 /* CoreBluetooth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0BA76D1BB27B4600E19437 /* CoreBluetooth.storyboard */; settings = {ASSET_TAGS = (); }; };
+		CA0BA7761BB27B4600E19437 /* GameKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0BA7701BB27B4600E19437 /* GameKit.m */; settings = {ASSET_TAGS = (); }; };
+		CA0BA7771BB27B4600E19437 /* MultipeerConnectivity.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0BA7731BB27B4600E19437 /* MultipeerConnectivity.m */; settings = {ASSET_TAGS = (); }; };
+		CA0BA77A1BB27BB600E19437 /* CoreBluetooth-center.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0BA7791BB27BB600E19437 /* CoreBluetooth-center.m */; settings = {ASSET_TAGS = (); }; };
+		CA0BA77C1BB27C6300E19437 /* CoreBlurtooth-center.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0BA77B1BB27C6300E19437 /* CoreBlurtooth-center.storyboard */; settings = {ASSET_TAGS = (); }; };
+		CA0BA7881BB2830A00E19437 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0BA7871BB2830A00E19437 /* iAd.framework */; };
+		CA0BA7911BB2837C00E19437 /* Social.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0BA78B1BB2837C00E19437 /* Social.m */; settings = {ASSET_TAGS = (); }; };
+		CA0BA7921BB2837C00E19437 /* Social.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0BA78C1BB2837C00E19437 /* Social.storyboard */; settings = {ASSET_TAGS = (); }; };
+		CA0BA7931BB2837C00E19437 /* IDID.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0BA78F1BB2837C00E19437 /* IDID.m */; settings = {ASSET_TAGS = (); }; };
+		CA0BA7941BB2837C00E19437 /* IDID.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0BA7901BB2837C00E19437 /* IDID.storyboard */; settings = {ASSET_TAGS = (); }; };
 		CA1EE4501BB168290009ADF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1EE44F1BB168290009ADF6 /* main.m */; };
 		CA1EE4531BB168290009ADF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1EE4521BB168290009ADF6 /* AppDelegate.m */; };
-		CA1EE4561BB168290009ADF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1EE4551BB168290009ADF6 /* ViewController.m */; };
 		CA1EE4591BB168290009ADF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1EE4571BB168290009ADF6 /* Main.storyboard */; };
 		CA1EE45B1BB168290009ADF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA1EE45A1BB168290009ADF6 /* Assets.xcassets */; };
 		CA1EE45E1BB168290009ADF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1EE45C1BB168290009ADF6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA0BA74B1BB25A1B00E19437 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA0BA74C1BB25A1B00E19437 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA0BA7521BB2644100E19437 /* KCAddPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCAddPersonViewController.h; sourceTree = "<group>"; };
+		CA0BA7531BB2644100E19437 /* KCAddPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCAddPersonViewController.m; sourceTree = "<group>"; };
+		CA0BA7541BB2644100E19437 /* KCContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCContactViewController.h; sourceTree = "<group>"; };
+		CA0BA7551BB2644100E19437 /* KCContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCContactViewController.m; sourceTree = "<group>"; };
+		CA0BA7591BB2646800E19437 /* AddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressViewController.h; sourceTree = "<group>"; };
+		CA0BA75A1BB2646800E19437 /* AddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressViewController.m; sourceTree = "<group>"; };
+		CA0BA75C1BB2700C00E19437 /* Address.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Address.storyboard; sourceTree = "<group>"; };
+		CA0BA76B1BB27B4600E19437 /* CoreBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreBluetooth.h; sourceTree = "<group>"; };
+		CA0BA76C1BB27B4600E19437 /* CoreBluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreBluetooth.m; sourceTree = "<group>"; };
+		CA0BA76D1BB27B4600E19437 /* CoreBluetooth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CoreBluetooth.storyboard; sourceTree = "<group>"; };
+		CA0BA76F1BB27B4600E19437 /* GameKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameKit.h; sourceTree = "<group>"; };
+		CA0BA7701BB27B4600E19437 /* GameKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameKit.m; sourceTree = "<group>"; };
+		CA0BA7721BB27B4600E19437 /* MultipeerConnectivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipeerConnectivity.h; sourceTree = "<group>"; };
+		CA0BA7731BB27B4600E19437 /* MultipeerConnectivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipeerConnectivity.m; sourceTree = "<group>"; };
+		CA0BA7781BB27BB600E19437 /* CoreBluetooth-center.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CoreBluetooth-center.h"; sourceTree = "<group>"; };
+		CA0BA7791BB27BB600E19437 /* CoreBluetooth-center.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CoreBluetooth-center.m"; sourceTree = "<group>"; };
+		CA0BA77B1BB27C6300E19437 /* CoreBlurtooth-center.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "CoreBlurtooth-center.storyboard"; sourceTree = "<group>"; };
+		CA0BA7871BB2830A00E19437 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		CA0BA78A1BB2837C00E19437 /* Social.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Social.h; sourceTree = "<group>"; };
+		CA0BA78B1BB2837C00E19437 /* Social.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Social.m; sourceTree = "<group>"; };
+		CA0BA78C1BB2837C00E19437 /* Social.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Social.storyboard; sourceTree = "<group>"; };
+		CA0BA78E1BB2837C00E19437 /* IDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDID.h; sourceTree = "<group>"; };
+		CA0BA78F1BB2837C00E19437 /* IDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDID.m; sourceTree = "<group>"; };
+		CA0BA7901BB2837C00E19437 /* IDID.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IDID.storyboard; sourceTree = "<group>"; };
 		CA1EE44B1BB168290009ADF6 /* 系统方法.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "系统方法.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA1EE44F1BB168290009ADF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA1EE4511BB168290009ADF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA1EE4521BB168290009ADF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CA1EE4541BB168290009ADF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CA1EE4551BB168290009ADF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CA1EE4581BB168290009ADF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA1EE45A1BB168290009ADF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA1EE45D1BB168290009ADF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -33,15 +72,117 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA0BA7881BB2830A00E19437 /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA0BA74A1BB25A1B00E19437 /* 系统服务 */ = {
+			isa = PBXGroup;
+			children = (
+				CA0BA74B1BB25A1B00E19437 /* ViewController.h */,
+				CA0BA74C1BB25A1B00E19437 /* ViewController.m */,
+			);
+			path = "系统服务";
+			sourceTree = "<group>";
+		};
+		CA0BA7501BB2644100E19437 /* 通讯录 */ = {
+			isa = PBXGroup;
+			children = (
+				CA0BA7511BB2644100E19437 /* C语言函数 */,
+				CA0BA7561BB2644100E19437 /* OC函数 */,
+			);
+			path = "通讯录";
+			sourceTree = "<group>";
+		};
+		CA0BA7511BB2644100E19437 /* C语言函数 */ = {
+			isa = PBXGroup;
+			children = (
+				CA0BA7521BB2644100E19437 /* KCAddPersonViewController.h */,
+				CA0BA7531BB2644100E19437 /* KCAddPersonViewController.m */,
+				CA0BA7541BB2644100E19437 /* KCContactViewController.h */,
+				CA0BA7551BB2644100E19437 /* KCContactViewController.m */,
+			);
+			path = "C语言函数";
+			sourceTree = "<group>";
+		};
+		CA0BA7561BB2644100E19437 /* OC函数 */ = {
+			isa = PBXGroup;
+			children = (
+				CA0BA7591BB2646800E19437 /* AddressViewController.h */,
+				CA0BA75A1BB2646800E19437 /* AddressViewController.m */,
+				CA0BA75C1BB2700C00E19437 /* Address.storyboard */,
+			);
+			path = "OC函数";
+			sourceTree = "<group>";
+		};
+		CA0BA75E1BB270F600E19437 /* 蓝牙 */ = {
+			isa = PBXGroup;
+			children = (
+				CA0BA76A1BB27B4600E19437 /* CoreBluetooth */,
+				CA0BA76E1BB27B4600E19437 /* Gamekit */,
+				CA0BA7711BB27B4600E19437 /* MultipeerConnectivity */,
+			);
+			path = "蓝牙";
+			sourceTree = "<group>";
+		};
+		CA0BA76A1BB27B4600E19437 /* CoreBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				CA0BA76B1BB27B4600E19437 /* CoreBluetooth.h */,
+				CA0BA76C1BB27B4600E19437 /* CoreBluetooth.m */,
+				CA0BA76D1BB27B4600E19437 /* CoreBluetooth.storyboard */,
+				CA0BA7781BB27BB600E19437 /* CoreBluetooth-center.h */,
+				CA0BA7791BB27BB600E19437 /* CoreBluetooth-center.m */,
+				CA0BA77B1BB27C6300E19437 /* CoreBlurtooth-center.storyboard */,
+			);
+			path = CoreBluetooth;
+			sourceTree = "<group>";
+		};
+		CA0BA76E1BB27B4600E19437 /* Gamekit */ = {
+			isa = PBXGroup;
+			children = (
+				CA0BA76F1BB27B4600E19437 /* GameKit.h */,
+				CA0BA7701BB27B4600E19437 /* GameKit.m */,
+			);
+			path = Gamekit;
+			sourceTree = "<group>";
+		};
+		CA0BA7711BB27B4600E19437 /* MultipeerConnectivity */ = {
+			isa = PBXGroup;
+			children = (
+				CA0BA7721BB27B4600E19437 /* MultipeerConnectivity.h */,
+				CA0BA7731BB27B4600E19437 /* MultipeerConnectivity.m */,
+			);
+			path = MultipeerConnectivity;
+			sourceTree = "<group>";
+		};
+		CA0BA7891BB2837C00E19437 /* 分享 */ = {
+			isa = PBXGroup;
+			children = (
+				CA0BA78A1BB2837C00E19437 /* Social.h */,
+				CA0BA78B1BB2837C00E19437 /* Social.m */,
+				CA0BA78C1BB2837C00E19437 /* Social.storyboard */,
+			);
+			path = "分享";
+			sourceTree = "<group>";
+		};
+		CA0BA78D1BB2837C00E19437 /* 广告 */ = {
+			isa = PBXGroup;
+			children = (
+				CA0BA78E1BB2837C00E19437 /* IDID.h */,
+				CA0BA78F1BB2837C00E19437 /* IDID.m */,
+				CA0BA7901BB2837C00E19437 /* IDID.storyboard */,
+			);
+			path = "广告";
+			sourceTree = "<group>";
+		};
 		CA1EE4421BB168290009ADF6 = {
 			isa = PBXGroup;
 			children = (
+				CA0BA7871BB2830A00E19437 /* iAd.framework */,
 				CA1EE44D1BB168290009ADF6 /* 系统方法 */,
 				CA1EE44C1BB168290009ADF6 /* Products */,
 			);
@@ -58,10 +199,13 @@
 		CA1EE44D1BB168290009ADF6 /* 系统方法 */ = {
 			isa = PBXGroup;
 			children = (
+				CA0BA7891BB2837C00E19437 /* 分享 */,
+				CA0BA78D1BB2837C00E19437 /* 广告 */,
+				CA0BA75E1BB270F600E19437 /* 蓝牙 */,
+				CA0BA7501BB2644100E19437 /* 通讯录 */,
+				CA0BA74A1BB25A1B00E19437 /* 系统服务 */,
 				CA1EE4511BB168290009ADF6 /* AppDelegate.h */,
 				CA1EE4521BB168290009ADF6 /* AppDelegate.m */,
-				CA1EE4541BB168290009ADF6 /* ViewController.h */,
-				CA1EE4551BB168290009ADF6 /* ViewController.m */,
 				CA1EE4571BB168290009ADF6 /* Main.storyboard */,
 				CA1EE45A1BB168290009ADF6 /* Assets.xcassets */,
 				CA1EE45C1BB168290009ADF6 /* LaunchScreen.storyboard */,
@@ -110,6 +254,7 @@
 				TargetAttributes = {
 					CA1EE44A1BB168290009ADF6 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = L4ELJ83EA7;
 					};
 				};
 			};
@@ -136,9 +281,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA0BA7941BB2837C00E19437 /* IDID.storyboard in Resources */,
+				CA0BA7751BB27B4600E19437 /* CoreBluetooth.storyboard in Resources */,
+				CA0BA7921BB2837C00E19437 /* Social.storyboard in Resources */,
 				CA1EE45E1BB168290009ADF6 /* LaunchScreen.storyboard in Resources */,
 				CA1EE45B1BB168290009ADF6 /* Assets.xcassets in Resources */,
 				CA1EE4591BB168290009ADF6 /* Main.storyboard in Resources */,
+				CA0BA77C1BB27C6300E19437 /* CoreBlurtooth-center.storyboard in Resources */,
+				CA0BA75D1BB2700C00E19437 /* Address.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +299,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA1EE4561BB168290009ADF6 /* ViewController.m in Sources */,
 				CA1EE4531BB168290009ADF6 /* AppDelegate.m in Sources */,
+				CA0BA7741BB27B4600E19437 /* CoreBluetooth.m in Sources */,
+				CA0BA7911BB2837C00E19437 /* Social.m in Sources */,
 				CA1EE4501BB168290009ADF6 /* main.m in Sources */,
+				CA0BA74F1BB25A1B00E19437 /* ViewController.m in Sources */,
+				CA0BA7771BB27B4600E19437 /* MultipeerConnectivity.m in Sources */,
+				CA0BA75B1BB2646800E19437 /* AddressViewController.m in Sources */,
+				CA0BA7931BB2837C00E19437 /* IDID.m in Sources */,
+				CA0BA77A1BB27BB600E19437 /* CoreBluetooth-center.m in Sources */,
+				CA0BA7581BB2644100E19437 /* KCContactViewController.m in Sources */,
+				CA0BA7761BB27B4600E19437 /* GameKit.m in Sources */,
+				CA0BA7571BB2644100E19437 /* KCAddPersonViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +422,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "系统方法/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CODE_SIGN_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aitaomama.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -274,8 +436,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "系统方法/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CODE_SIGN_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aitaomama.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -300,6 +465,7 @@
 				CA1EE4641BB168290009ADF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

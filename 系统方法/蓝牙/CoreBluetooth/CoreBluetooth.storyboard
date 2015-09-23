@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="l6d-B8-P3a">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Core Bluetooth-->
+        <scene sceneID="ZNB-iX-NgP">
+            <objects>
+                <viewController id="l6d-B8-P3a" customClass="CoreBluetooth" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RuL-Bo-So4"/>
+                        <viewControllerLayoutGuide type="bottom" id="gNE-hV-1WZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8tE-Ed-Cgh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XG4-Hw-eEI">
+                                <rect key="frame" x="20" y="129" width="267" height="279"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LJx-Ll-HF8">
+                                <rect key="frame" x="41" y="38" width="90" height="51"/>
+                                <state key="normal" title="创建外围设备"/>
+                                <connections>
+                                    <action selector="startClick:" destination="l6d-B8-P3a" eventType="touchUpInside" id="cXJ-gH-C0E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yo4-Sm-Olx">
+                                <rect key="frame" x="165" y="38" width="90" height="51"/>
+                                <state key="normal" title="更新数据"/>
+                                <connections>
+                                    <action selector="transferClick:" destination="l6d-B8-P3a" eventType="touchUpInside" id="a1l-fP-G2J"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="log" destination="XG4-Hw-eEI" id="nzI-hG-CZS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dqH-8r-bPO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="735" y="155"/>
+        </scene>
+    </scenes>
+</document>
